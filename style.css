@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color: #622569;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+.signup {
+    border-radius: 18px;
+    background-color:#d6d4e0;
+    color: #622569;
+}
+
+.header {
+    background-color: #5b9aa0;
+    padding: 40px;
+}
+
+.design {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: #622569;
+}
+
+span {
+    color: white;
+}
+
+.header_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.longlink {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #622569;
+    background-color: #d6d4e0;
+    padding: 0 auto;
+    border-radius: 24px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #622569;
+}
+
+.uppertext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+
+.lowertext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+
+img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textcontainer {
+    background-color: #622569;
+    padding: 60px;
+    padding-top: 100px;
+    text-align: center!important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+    height: 25%;
+}
+
+.maincontent {
+    margin: 50px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.mainright {
+    margin-left: 60px;
+}
+
+.footer {
+    background-color: #5b9aa0;
+}
+
+.slogan {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.detail {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.about {
+    width: 50%;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #622569;
+}
+
+.footerbox {
+    text-align: center;
+}
+
+@media (max-width:567px) {
+    .navbar {
+        display: none!important;
+    }
+    .footer {
+        display: none;
+    }
+    .header_text {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .mainright {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0;
+    }
+    .maincontent {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .addpadding {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+    .textcontainer {
+        text-align: center!important;
+        padding: 20px;
+        padding-top: 80px;
+        height: 50%;
+        box-sizing: border-box;
+    }
+    /* h3 {
+        padding-top: 20px;
+    } */
+}
